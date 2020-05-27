@@ -2,7 +2,7 @@ import numpy as np
 import tabulate as tb
 
 
-#  алгоритм динамического программирования
+#  calculating minimum edit distance between X and Yminimum edit distance between X and Y
 def edit_distance_func(word_1, word_2):
     n = len(word_1) + 1
     m = len(word_2) + 1
